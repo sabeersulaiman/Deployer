@@ -21,7 +21,7 @@ namespace AdDin.Deployer.Deployer
 			if (depScript == null) return "The script path is not found.";
 
 			Process cmd = new Process();
-			cmd.StartInfo.FileName = "cmd.exe";
+			cmd.StartInfo.FileName = @"C:\Users\sabee\Program Files\Git\etc";
 			cmd.StartInfo.RedirectStandardInput = true;
 			cmd.StartInfo.RedirectStandardOutput = true;
 			cmd.StartInfo.CreateNoWindow = true;
